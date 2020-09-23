@@ -1,14 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Roboto, Arial;
+    font-family: sans-serif, Roboto, Arial;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #eebcbc;
-    font-size: 5vh;
-    color: rgb(117, 4, 48);
+    background-color: white;
+    font-size: 4vh;
+    color: rgb(235, 1, 101);
+    ;
 }
 
 ul {
@@ -20,7 +21,9 @@ ul {
 }
 
 header {
-    background-image: url("images/raspberry.jpg");
+    background-image: url(images/raspberry.jpg);
+    background-color: rgb(196, 160, 166);
+    background-blend-mode: screen;
     height: 100vh;
     width: 100vw;
     background-size: cover;
@@ -33,7 +36,6 @@ header {
 navbar {
     overflow: hidden;
     width: 100%;
-    border-bottom: 0.25rem solid rgb(117, 4, 48);
 }
 
 li a {
@@ -41,12 +43,12 @@ li a {
     display: block;
     width: 25%;
     padding: 10px 20px;
-    color: rgb(117, 4, 48);
+    color: rgb(235, 1, 101);
     font-weight: bolder;
     text-decoration: none;
     text-align: center;
     float: left;
-    transition: all 1s ease;
+    font-size: 2rem;
 }
 
 li a:hover {
@@ -57,9 +59,10 @@ li a:hover {
 
 h1,
 h2,
+h3,
 h3 {
     text-align: center;
-    color: rgb(117, 4, 48);
+    color: rgb(147, 246, 0);
     font-family: sans-serif;
     font-weight: bolder;
 }
@@ -75,32 +78,57 @@ h2 {
 
 h3 {
     font-size: 4vh;
+    margin: 2vh 2vh 2vh 2vh;
+}
+
+h4 {
+    margin: 3vh;
 }
 
 description {
     background-image: url("images/raspberry-menu.jpg");
+    background-color: rgb(196, 160, 166);
+    background-blend-mode: screen;
     height: 100vh;
     width: 100vw;
     background-size: cover;
     display: flex;
+}
+
+.description {
+    margin: 10%;
+    display: block;
+    justify-content: center;
 }
 
 menu {
     background-image: url("images/background2.jpg");
+    background-color: rgb(196, 160, 166);
+    background-blend-mode: screen;
     height: 100vh;
     width: 100vw;
     background-size: cover;
     display: flex;
-    align-items: center;
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu {
+    float: left;
+    display: block;
+    margin: 10%;
 }
 
 .image {
-    height: 30vh;
+    max-height: 30vh;
+    max-width: 30vw;
 }
 
 gallery {
     background-image: url("images/background4.jpg");
+    background-color: rgb(196, 160, 166);
+    background-blend-mode: screen;
     height: 100vh;
     width: 100vw;
     background-size: cover;
@@ -111,9 +139,33 @@ gallery {
     flex-wrap: wrap;
 }
 
+.galery img {
+    transition-duration: 3s;
+    margin: 0 auto;
+    display: block;
+}
+
+.gallery img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 0;
+}
+
 contact {
     background-image: url("images/background3.jpg");
+    background-color: rgb(196, 160, 166);
+    background-blend-mode: screen;
     height: 100vh;
     width: 100vw;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    display: block;
+    margin: 0 auto;
 }
