@@ -78,7 +78,7 @@ h2 {
 
 h3 {
     font-size: 4vh;
-    margin: 2vh 2vh 2vh 2vh;
+    margin: 2vh;
 }
 
 h4 {
@@ -108,16 +108,13 @@ menu {
     height: 100vh;
     width: 100vw;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .menu {
     float: left;
     display: block;
     margin: 10%;
+    columns: 35vw 2;
 }
 
 .image {
