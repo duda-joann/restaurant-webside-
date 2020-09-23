@@ -12,7 +12,21 @@
 
 <body>
     <header>
-        <navbar>
+        <navbar id="main" class="main">
+            <ul>
+                <li>
+                    <a href="#description">O restauracji </a>
+                </li>
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="#gallery" href=="#">Galeria</a>
+                </li>
+                <li>
+                    <a href="#contact" ref=="#">Kontakt</a>
+                </li>
+            </ul>
 
         </navbar>
         <h1> BISTRO RASPBERRY</h1>
@@ -21,7 +35,7 @@
     </header>
 
     <description>
-        <div id="description">
+        <div id="description" class=description>
             <h2> Kilka słów o restauracji</h2>
             <p>
                 Bistro Raspberry powstało w 2020 roku na znanej ul. Malinowej w Krakowie. Doszliśmy do wniosku, że dania przez nas serwowane najbardziej skomponują się z nazwą tej ulicy. Od początku naszej działalności skupiamy sie na połączeniu słodkiego i orzeżwiajacego
@@ -29,41 +43,54 @@
                 sernika malinowego. Jeżeli raz nas odwiedzisz zapragniesz ciągle powracać w nasze niebiańskie progi.
             </p>
         </div>
-        </div>
-        </div>
     </description>
     <menu>
-        <div id="menu">
+        <div id="menu" class="menu">
             <h2> Nasze menu</h2>
-            <h3>Przystawki</h3>
-            <ul>
-                <li> Tatar z malin </li>
-                <li> Krewetki w sosie malinowym podane na listkach mięty</li>
-                <li> Chłodnik malinowo - mietowy</li>
-            </ul>
-            <h4>Dania Główne</h4>
-            <ul>
-                <li>Łosoś pod malinową kołderką</li>
-                <li>Kaczka nadziewana malinową miłością</li>
-            </ul>
-            <h4>Desery</h4>
-            <ul>
-                <li>Sernik pod malinową chmurką</li>
-                <li>Malinowy dystrybutor z wafli z lodami</li>
-            </ul>
-            <h4>Napoje</h4>
-            <ul>
-                <li>Malinowe latte</li>
-                <li> Malinowe espresso</li>
-                <li> Mohito malinowe </li>
-            </ul>
+            <div1>
+                <h4>Przystawki</h4>
+                <ul>
+                    <li> Tatar z malin </li>
+                    <li> Krewetki w sosie malinowym podane na listkach mięty</li>
+                    <li> Chłodnik malinowo - mietowy</li>
+                </ul>
+                <h4>Dania Główne</h4>
+                <ul>
+                    <li>Łosoś pod malinową kołderką</li>
+                    <li>Kaczka nadziewana malinową miłością</li>
+                </ul>
+            </div1>
+            <div2>
+                <h4>Desery</h4>
+                <ul>
+                    <li>Sernik pod malinową chmurką</li>
+                    <li>Malinowy dystrybutor z wafli z lodami</li>
+                </ul>
+                <h4>Napoje</h4>
+                <ul>
+                    <li>Malinowe latte</li>
+                    <li> Malinowe espresso</li>
+                    <li> Mohito malinowe </li>
+                </ul>
+            </div2>
         </div>
     </menu>
-    <gallery>
-        <img src='images/kremowka.jpg'> <img src='images/pannacotta.jpg'>
-        <img src='images/bounty.jpg'>
-        <img src="images/cupcake.jpg">
-        < </gallery>
+    <gallery id="gallery" class="gallery">
+        <h2>Galeria</h2>
+        <div> <img class="image" src='images/kremowka.jpg'>
+            <img class="image" src='images/pannacotta.jpg'>
+            <img class="image" src="images/dessert4.jpg">
+            <img class="image" src='images/bounty.jpg'>
+            <img class="image" src="images/cupcake.jpg">
+            <img class="image" src="images/dessert.jpg">
+            <img class="image" src="images/dessert2.jpg">
+            <img class="image" src="images/dessert3.jpg">
+            <img class="image" src="images/dessert5.jpg">
+    </gallery>
+    </div>
+    <contact id="contact" class="contact">
+
+    </contact>
 </body>
 
 </html>
