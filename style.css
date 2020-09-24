@@ -1,168 +1,183 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif, Roboto, Arial;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: white;
-    font-size: 4vh;
-    color: rgb(235, 1, 101);
-    ;
-}
-
-ul {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-header {
-    background-image: url(images/raspberry.jpg);
-    background-color: rgb(196, 160, 166);
-    background-blend-mode: screen;
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-navbar {
-    overflow: hidden;
-    width: 100%;
-}
-
-li a {
-    background-color: transparent;
-    display: block;
-    width: 25%;
-    padding: 10px 20px;
-    color: rgb(235, 1, 101);
-    font-weight: bolder;
-    text-decoration: none;
-    text-align: center;
-    float: left;
-    font-size: 2rem;
-}
-
-li a:hover {
-    color: palevioletred;
-    background-color: transparent;
-    border: 1px solid palevioletred;
-}
-
-h1,
-h2,
-h3,
-h3 {
-    text-align: center;
-    color: rgb(147, 246, 0);
-    font-family: sans-serif;
-    font-weight: bolder;
-}
-
-h1 {
-    font-size: 10vh;
-    margin-bottom: 10px;
-}
-
-h2 {
-    font-size: 6vh;
-}
-
-h3 {
-    font-size: 4vh;
-    margin: 2vh;
-}
-
-h4 {
-    margin: 3vh;
-}
-
-description {
-    background-image: url("images/raspberry-menu.jpg");
-    background-color: rgb(196, 160, 166);
-    background-blend-mode: screen;
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    display: flex;
-}
-
-.description {
-    margin: 10%;
-    display: block;
-    justify-content: center;
-}
-
-menu {
-    background-image: url("images/background2.jpg");
-    background-color: rgb(196, 160, 166);
-    background-blend-mode: screen;
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-}
-
-.menu {
-    float: left;
-    display: block;
-    margin: 10%;
-    columns: 35vw 2;
-}
-
-.image {
-    max-height: 30vh;
-    max-width: 30vw;
-}
-
-gallery {
-    background-image: url("images/background4.jpg");
-    background-color: rgb(196, 160, 166);
-    background-blend-mode: screen;
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.galery img {
-    transition-duration: 3s;
-    margin: 0 auto;
-    display: block;
-}
-
-.gallery img:hover {
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    z-index: 0;
-}
-
-contact {
-    background-image: url("images/background3.jpg");
-    background-color: rgb(196, 160, 166);
-    background-blend-mode: screen;
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-h2 {
-    display: block;
-    margin: 0 auto;
-}
+                        * {
+                            margin: 0;
+                            padding: 0;
+                            font-family: sans-serif, Roboto, Arial;
+                            box-sizing: border-box;
+                        }
+                        
+                        body {
+                            background-color: white;
+                            font-size: 4vh;
+                            color: #a30046;
+                            ;
+                        }
+                        
+                        ul {
+                            float: left;
+                            width: 100%;
+                            padding: 0;
+                            margin: 0;
+                            list-style: none;
+                        }
+                        
+                        header {
+                            background-image: url(images/raspberry.jpg);
+                            Background-color: rgba(202, 99, 116, 0.6);
+                            background-blend-mode: screen;
+                            height: 100vh;
+                            width: 100vw;
+                            background-size: cover;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
+                        }
+                        
+                        navbar {
+                            overflow: hidden;
+                            width: 100%;
+                            position: fixed;
+                            position: fixed;
+                            z-index: 30;
+                            top: 0px;
+                            left: 0px;
+                            margin: 0px auto;
+                            width: 100%;
+                        }
+                        
+                        li a {
+                            background-color: #a30046;
+                            display: block;
+                            width: 25%;
+                            padding: 10px 20px;
+                            color: white;
+                            font-weight: bolder;
+                            text-decoration: none;
+                            text-align: center;
+                            float: left;
+                            font-size: 2rem;
+                        }
+                        
+                        li a:hover {
+                            color: palevioletred;
+                            background-color: transparent;
+                            border: 1px solid palevioletred;
+                        }
+                        
+                        h1,
+                        h2,
+                        h3,
+                        h3 {
+                            text-align: center;
+                            /*color: rgb(86, 136, 11);*/
+                            color: rgb(8, 105, 8);
+                            font-family: sans-serif;
+                            font-weight: bolder;
+                        }
+                        
+                        h1 {
+                            font-size: 10vh;
+                            margin-bottom: 10px;
+                        }
+                        
+                        h2 {
+                            font-size: 6vh;
+                            margin: 2vh;
+                        }
+                        
+                        h3 {
+                            font-size: 4vh;
+                            margin: 2vh;
+                        }
+                        
+                        h4 {
+                            margin: 3vh;
+                        }
+                        
+                        description {
+                            background-image: url("images/raspberry-menu.jpg");
+                            background-color: rgb(196, 160, 166, 0.3);
+                            background-blend-mode: screen;
+                            height: 100vh;
+                            width: 100vw;
+                            background-size: cover;
+                            display: flex;
+                        }
+                        
+                        .description {
+                            margin: 10%;
+                            display: block;
+                            line-height: normal;
+                        }
+                        
+                        menu {
+                            background-image: url("images/background2.jpg");
+                            background-color: rgb(196, 160, 166);
+                            background-blend-mode: screen;
+                            height: 100vh;
+                            width: 100vw;
+                            background-size: cover;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        
+                        .menu {
+                            float: left;
+                            margin: 13%;
+                            columns: 35vw 2;
+                            color: #a30046;
+                            font-family: Courgette, cursive;
+                        }
+                        
+                        .image {
+                            max-height: 30vh;
+                            max-width: 30vw;
+                        }
+                        
+                        gallery {
+                            background-image: url("images/background4.jpg");
+                            background-color: rgb(196, 160, 166, 0.6);
+                            background-blend-mode: screen;
+                            height: 100vh;
+                            width: 100vw;
+                            background-size: cover;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
+                            flex-wrap: wrap;
+                        }
+                        
+                        .images {
+                            margin: 10%;
+                        }
+                        
+                        .gallery img {
+                            transition-duration: 3s;
+                        }
+                        
+                        .gallery img:hover {
+                            transform: scale(1.2);
+                            -webkit-transform: scale(1.2);
+                            -moz-transform: scale(1.2);
+                            z-index: 0;
+                        }
+                        
+                        contact {
+                            background-image: url("images/background3.jpg");
+                            background-color: rgb(196, 160, 166, 0.6);
+                            background-blend-mode: screen;
+                            height: 100vh;
+                            width: 100vw;
+                            background-size: cover;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
+                        }
+                        
+                        h2 {
+                            display: block;
+                            margin: 0 auto;
+                        }
