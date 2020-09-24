@@ -33,6 +33,16 @@
                             flex-direction: column;
                         }
                         
+                        header h2 {
+                            font-family: Courgette, cursive;
+                            ;
+                        }
+                        
+                        header h3 {
+                            color: #a30046;
+                            font-family: Courgette, cursive;
+                        }
+                        
                         navbar {
                             overflow: hidden;
                             width: 100%;
@@ -120,14 +130,21 @@
                             display: flex;
                             align-items: center;
                             justify-content: center;
+                            flex-direction: column;
+                        }
+                        
+                        .menu li {
+                            font-family: Courgette, cursive;
                         }
                         
                         .menu {
-                            float: left;
-                            margin: 13%;
                             columns: 35vw 2;
                             color: #a30046;
-                            font-family: Courgette, cursive;
+                            margin-left: 10%;
+                            margin-right: 10%;
+                            padding: 10px;
+                            border: #a30046 2px solid;
+                            border-top-style: ridge
                         }
                         
                         .image {
