@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raspberry Bistro</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -18,7 +18,7 @@
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
             <li>
-                <a href="#description ">RESTAURACJA </a>
+                <a href="#description">RESTAURACJA </a>
             </li>
             <li>
                 <a href="#menu-meals">MENU</a>
@@ -34,8 +34,8 @@
     </navbar>
     <header>
         <div id="title">
-            <h1> BISTRO RASPBERRY</h1>
-            <h2> Restauracja/Kawiarnia/Lounge bar</h2>
+            <h1> Bistro Raspberry</h1>
+            <h2> Restauracja&Kawiarnia</h2>
             <h3> Malinowa rozkosz dla Twych zmysłów</h3>
         </div>
     </header>
@@ -92,7 +92,7 @@
         </div>
     </gallery>
     <contact id="contact" class="contact ">
-        <h2>Kontakt</h2>
+        <h2>Rezerwacja</h2>
         <div id="form">
             <form method="post" action="/send_form.php" id="contact_form">
                 <div><label for="name">Imię i nazwisko</label></div>
@@ -101,9 +101,11 @@
                 <div><input type="text" name="phone" id="phone" class="formField" /></div>
                 <div><label for="email">Adres email</label></div>
                 <div><input type="text" name="email" id="email" class="formField" /></div>
+                <div><label for="email">Ilość gości</label></div>
+                <div><input type="text" name="Ilość gości" id="phone" class="formField" /></div>
                 <div><label for="message">Treść wiadomości</label></div>
                 <div><textarea name="message" id="message" class="formField"></textarea></div>
-                <div><button id="sendBtn">Wyślij</button></div>
+                <button id="sendBtn">Wyślij</button>
             </form>
         </div>
     </contact>
