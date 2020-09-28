@@ -6,53 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raspberry Bistro</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@500&display=swap');
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
+    <navbar class="header">
+        <a href="" class="logo"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li>
+                <a href="#description ">RESTAURACJA </a>
+            </li>
+            <li>
+                <a href="#menu-meals">MENU</a>
+            </li>
+            <li>
+                <a href="#gallery">GALERIA</a>
+            </li>
+            <li>
+                <a href="#contact">KONTAKT</a>
+            </li>
+        </ul>
+
+    </navbar>
     <header>
-        <navbar id="main " class="main ">
-            <ul>
-                <li>
-                    <a href="#description ">RESTAURACJA </a>
-                </li>
-                <li>
-                    <a href="#menu ">MENU</a>
-                </li>
-                <li>
-                    <a href="#gallery " href=="# ">GALERIA</a>
-                </li>
-                <li>
-                    <a href="#contact " ref=="# ">KONTAKT</a>
-                </li>
-            </ul>
-
-        </navbar>
-
         <div id="title">
             <h1> BISTRO RASPBERRY</h1>
             <h2> Restauracja/Kawiarnia/Lounge bar</h2>
             <h3> Malinowa rozkosz dla Twych zmysłów</h3>
         </div>
     </header>
-
     <description>
         <div id="description" class=description>
             <h2> Kilka słów o restauracji</h2>
             <p>
                 Bistro Raspberry powstało w 2020 roku na znanej ul. Malinowej w Krakowie. Doszliśmy do wniosku, że dania przez nas serwowane najbardziej skomponują się z nazwą tej ulicy. Od początku naszej działalności skupiamy sie na połączeniu słodkiego i orzeżwiajacego
-                smaku malin z klasykami polskiej i europejskiej kuchni. Pokażemy Ci słodką i kuszącą stronę maliny a także tąż bardziej wykwintną. U nas skosztujesz przepysznej kawy z malinowym syropem oraz obłędnie lekkiego niczym chmurka wiedeńskiego,
-                sernika malinowego. Jeżeli raz nas odwiedzisz zapragniesz ciągle powracać w nasze niebiańskie progi.
+                smaku malin z klasykami polskiej i europejskiej kuchni. Pokażemy Ci słodką i kuszącą stronę maliny a także tę bardziej wykwintną. Skosztujesz przepysznej kawy z malinowym syropem oraz obłędnie lekkiego niczym chmurka wiedeńskiego, sernika
+                malinowego. Jeżeli raz nas odwiedzisz zapragniesz ciągle powracać w nasze niebiańskie progi.
             </p>
         </div>
     </description>
-    <menu>
+    <main>
         <h2> Nasze menu</h2>
-        <div id="menu" class="hamburger">
+        <div id="menu-meals" class="menu-meals">
             <h4>Przystawki</h4>
             <ul>
                 <li> Tatar z malin </li>
@@ -76,8 +75,9 @@
                 <li> Malinowe espresso</li>
                 <li> Mohito malinowe </li>
             </ul>
-    </menu>
-    <gallery id="gallery " class="gallery ">
+        </div>
+    </main>
+    <gallery id="gallery" class="gallery">
         <h2>Galeria</h2>
         <div id="images">
             <img class="image " src='images/kremowka.jpg'>
@@ -107,4 +107,5 @@
             </form>
         </div>
     </contact>
+
 </body>
