@@ -169,16 +169,41 @@
         color: rgb(8, 105, 8);
         font-weight: bolder;
     }
-    /*header h1 {
-    color: #a30046;
-}*/
+    
+    @keyframes element-right {
+        from {
+            transform: translate(1000px);
+        }
+        to {
+            transform: translate(0);
+        }
+    }
+    
+    @keyframes element-left {
+        from {
+            transform: translate(-1000px);
+        }
+        to {
+            transform: translate(0);
+        }
+    }
+    
+    header h1 {
+        color: #a30046;
+        animation: element-right 0.5s 1s;
+        animation-fill-mode: both;
+    }
     
     header h2 {
         font-family: sans-serif;
+        animation: element-left 1s 3s;
+        animation-fill-mode: both;
     }
     
     header h3 {
         color: #a30046;
+        animation: element-right 1s 4s;
+        animation-fill-mode: both;
     }
     
     h1 {
@@ -193,12 +218,16 @@
         font-size: 10vh;
         margin: 2vh;
         font-family: Italianno, cursive, bold;
+        animation: element-right 1s 1s;
+        animation-fill-mode: both;
     }
     
     h3 {
         font-size: 8vh;
         margin: 2vh;
         font-family: Italianno, cursive, bold;
+        animation: element-right 1s 4s;
+        animation-fill-mode: both;
     }
     
     h4 {
@@ -250,15 +279,29 @@
         flex-direction: column;
     }
     
+    @keyframes appear {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
     .menu-meals {
         columns: 35vw 2;
         color: #a30046;
         margin-left: 10%;
+        opacity: 0;
         font-family: Arial;
         margin-right: 10%;
         padding: 10px;
         border: #a30046 2px solid;
         border-top-style: ridge;
+        animation-name: appear;
+        animation-duration: 1s;
+        animation-delay: 2s;
+        animation-fill-mode: both;
     }
     
     .image {
